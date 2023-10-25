@@ -1,7 +1,7 @@
 import { CartService } from "../services/CartService.js";
 import { CartManagerPromise } from "../DAO/factory.js";
 import { ProductService } from "../services/ProductService.js";
-import { TicketService } from "../services/Ticketservice.js";
+import { TicketService } from "../services/TicketServices.js";
 import { logger } from "../logger.js";
 
 const cartService = new CartService();
