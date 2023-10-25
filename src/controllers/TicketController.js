@@ -1,4 +1,4 @@
-import { TicketService } from "../services/TicketServices";
+import { TicketService } from "../services/TicketServices.js";
 import { logger } from "../logger.js";
 
 const ticketService = new TicketService();
